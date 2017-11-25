@@ -1,5 +1,5 @@
 
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5 {font-family: "Lato", sans-serif;}
 body, html {
     height: 100%;
     color: #777;
@@ -7,7 +7,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,28 +15,46 @@ body, html {
 }
 #subtitle {
   font-size: 30px;
-  padding-bottom: 100px;
+  padding-top: 15%;
   color: white;
-  display: flex;
+  /*display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url("../images/WhatsApp Image 2017-09-25 at 06.23.49.jpeg");
+    background-image: url("../images/studio/textureWorks.jpeg");
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("../images/workshopBowl.jpeg");
+    background-image: url("../images/studio/workshopBowl.jpeg");
     min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("../images/WhatsApp Image 2017-09-25 at 06.23.49.jpeg");
+    background-image: url("../images/motherWithApples.jpeg");
+    min-height: 400px;
+}
+
+/* Fourth image (Contact) */
+.bgimg-4 {
+    background-image: url("../images/studio/informal 8.jpeg");
+    min-height: 400px;
+}
+
+/* Fifth image (Contact) */
+.bgimg-5 {
+    background-image: url("../images/studio/Jayne3.jpeg");
+    min-height: 400px;
+}
+
+/* Sixth image (Contact) */
+.bgimg-6 {
+    background-image: url("../images/women/ladies.jpeg");
     min-height: 400px;
 }
 
